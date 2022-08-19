@@ -58,9 +58,25 @@ span {
   -webkit-font-smoothing: auto;
 }
 
+.button {
+  background-color: #058240;
+  color: azure;
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  font: 500 1rem var(--body-font);
+  transition:  0.3s;
+}
+
 .divider-1 {
   height: 1px;
-  background: linear-gradient( to right #038C73, #a8e4d9);
+  background: linear-gradient( 
+    270deg,
+    hsla(120,36%, 57%, 1),
+    hsla(130, 65%, 88%, 0.34)
+  );
 }
 
 
@@ -358,7 +374,7 @@ nav.show div.icon-close {
 }
 
   #contact ul li i {
-    color: var(--base-color);
+    color: #058240;
   }
 
   /*********FOOTER*******/
@@ -376,7 +392,7 @@ nav.show div.icon-close {
   }
 
   footer .brand p {
-    color: var(--text-color-light);
+    color: #058240;
     margin-bottom: 0.75rem;
   }
 
